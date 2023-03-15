@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.web-app-container{
+    height: 100vh;
+    width: 100%;
+    border: 3px dashed white;
+}
+
+.top-area{
+    height: calc(100% - 90px);
+    display: flex;
+    border: 3px dashed white;
+}
+
+.bottom-area{
+    height: 90px;
+    border: 3px dashed white;
+}
+
+aside{
+    background-color: rgb(20, 20, 20);
+    width: 250px;
+    height: 100%;
+}
+
+main{
+    width: calc(100% - 250px);
+    height: 100%;
+    border: 3px dashed white;
+
+}
